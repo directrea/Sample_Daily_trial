@@ -48,6 +48,7 @@ public final class Main extends JavaPlugin implements Listener {
    *
    * @param e イベント
    */
+  //コメント追加
   @EventHandler
   public void onPlayerToggleSneak(PlayerToggleSneakEvent e) throws IOException {
     // イベント発生時のプレイヤーやワールドなどの情報を変数に持つ。
